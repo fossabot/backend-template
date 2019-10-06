@@ -1,0 +1,5 @@
+# javascript
+node_modules
+
+# non-standard IDE config
+.idea
