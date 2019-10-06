@@ -6,4 +6,11 @@ This project aims to provide a template for building production-grade backend sy
 
 This project written on node `lts/dubnium` which you can check the version specifically on `.nvmrc`.
 
+## Features / Technologies
+
+* Node version manager uses [nvm][nvm]
+* Continuous integration using [Travis CI][travis-ci]
+
 [MPJ]: https://github.com/empeje
+[nvm]: https://github.com/nvm-sh/nvm
+[travis-ci]: https://travis-ci.org

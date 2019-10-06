@@ -1,0 +1,21 @@
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+matrix:
+  include:
+    - language: node_js
+      node_js: "10"
+      script:
+      - yarn test
+
+    - language: node_js
+      node_js: "11"
+      script:
+      - yarn test
+
+    - language: node_js
+      node_js: "12"
+      script:
+      - yarn test
