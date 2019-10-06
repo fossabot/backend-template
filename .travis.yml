@@ -1,3 +1,7 @@
+_test_scripts: &_test_scripts
+  script:
+  - yarn test
+
 cache:
   yarn: true
   directories:
@@ -7,15 +11,12 @@ matrix:
   include:
     - language: node_js
       node_js: "10"
-      script:
-      - yarn test
+      <<: *_test_scripts
 
     - language: node_js
       node_js: "11"
-      script:
-      - yarn test
+      <<: *_test_scripts
 
     - language: node_js
       node_js: "12"
-      script:
-      - yarn test
+      <<: *_test_scripts
