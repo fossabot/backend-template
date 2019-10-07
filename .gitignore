@@ -1,5 +1,9 @@
 # javascript
 node_modules
+yarn-error.log
 
 # non-standard IDE config
 .idea
+
+# 12factor
+.env
